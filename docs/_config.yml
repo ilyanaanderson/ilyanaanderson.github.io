@@ -1,0 +1,12 @@
+title: Ilyana Anderson - Machine Learning & NLP
+description: >- # this means to ignore newlines
+  Welcome to the personal website of Ilyana Anderson. 
+  Here, Ilyana Anderson presents her projects in the fields of 
+  Machine Learning and Natural Language Processing (NLP).
+# baseurl: "" # the subpath of your site, e.g. /blog
+# url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+theme: minima
+plugins:
+  - jekyll-feed    # will require title and description set in _config (or else it will look for them in github metadata)
+

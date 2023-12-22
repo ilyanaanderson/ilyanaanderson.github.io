@@ -1,0 +1,7 @@
+Notes for myself:
+
+config file doesn't specify url and baseurl at the moment. 
+This way, this folder can be used both locally and probably in the repo (on github pages)
+
+minima theme is specified in order to use social icons in the future
+(custom layouts files with the same name will override the theme's files)
