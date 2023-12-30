@@ -1,11 +1,11 @@
 <!doctype html>
 <html lang="en">
     {%- include head.html -%}
-    <body>
+    <body class="d-flex flex-column min-vh-100">
         {%- include header.html -%}
 
-        <main aria-label="Content">
-            <div class="container">
+        <main aria-label="Content" class="flex-grow-1">
+            <div class="container-sm">
               {{ content }}
             </div>
         </main>
