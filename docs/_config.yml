@@ -1,10 +1,11 @@
-title: Ilyana Anderson - Machine Learning & NLP
+title: Ilyana Anderson - Machine Learning, Deep Learning, NLP
 description: >- # this means to ignore newlines
-  Welcome to the personal website of Ilyana Anderson. 
-  Here, she presents her projects in the fields of 
-  Machine Learning and Natural Language Processing (NLP).
+  Welcome to the personal website of Ilyana Anderson.
+  Here, she presents her projects in the fields of
+  Machine Learning, Deep Learning, and Natural Language Processing (NLP).
 # in order to use ">-", do not use quotation marks around the string 
 # otherwise, quotes are optional
+# newlines are converted to spaces: remove any spaces at the end of lines
 
 # baseurl: "" # empty string is likely the default
 # url: "" # if commented out, it would be the default (local for local and the site for remote)
