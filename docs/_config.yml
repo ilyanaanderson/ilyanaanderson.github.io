@@ -3,11 +3,15 @@ description: >- # this means to ignore newlines
   Welcome to the personal website of Ilyana Anderson. 
   Here, she presents her projects in the fields of 
   Machine Learning and Natural Language Processing (NLP).
+# in order to use ">-", do not use quotation marks around the string 
+# otherwise, quotes are optional
 
 # baseurl: "" # empty string is likely the default
 # url: "" # if commented out, it would be the default (local for local and the site for remote)
 
 theme: minima
 # plugins:
-#   - jekyll-feed    # will require title and description set in _config (or else it will look for them in github metadata)
+#   - jekyll-feed    
+# jekyll-feed is active by default 
+# will require title and description set in _config (or else it will look for them in github metadata)
 
