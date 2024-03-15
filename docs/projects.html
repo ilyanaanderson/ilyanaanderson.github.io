@@ -16,7 +16,7 @@ permalink: /projects
             <li class="list-group-item d-flex justify-content-between align-items-start">
               <div class="ms-2 me-auto">
                 <div class="fw-bold mb-2">Prediction of Nucleotide Reactivity at Each Position in RNA Molecules 
-                  Using Transformer Architecture</div>
+                  Using Custom Transformer Architecture</div>
                 <div class="mb-2">
                   Understanding Ribonucleic acid (RNA) molecule structure is crucial in many fields of medicine. 
                   Experimental measurements of several types of chemical reactivity can be utilized to derive such 
@@ -25,8 +25,9 @@ permalink: /projects
                   of the 
                   <a href="https://www.kaggle.com/competitions/stanford-ribonanza-rna-folding/overview" class="text-info-emphasis">
                     Stanford 
-                    Ribonanza RNA Folding competition
-                  </a>. My best approach yielded 0.15867 mean absolute error (MAE) 
+                    Ribonanza RNA Folding competition</a> on Kaggle. I experimented with rotary and sinusoidal 
+                    embeddings, as well as feeding different types of sequence-related data (features) into the decoder 
+                    part of my transformer models. My best approach yielded 0.15867 mean absolute error (MAE) 
                     score on the private leaderboard test data. This solution placed in the top 8% of contest 
                     submissions.
                 </div>
@@ -39,21 +40,32 @@ permalink: /projects
             </li>
             <li class="list-group-item d-flex justify-content-between align-items-start">
               <div class="ms-2 me-auto">
-                <div class="fw-bold mb-2">Exploration of Methods to Remove Bias From Models Performing Natural 
+                <div class="fw-bold mb-2">Exploration of Methods to Remove Bias From LLMs Fine-Tuned on Natural 
                   Language Inference Task</div>
-                <div class="mb-2">In this project, I make several attempts to remove bias from the models trained 
-                  for the natural language inference task. I explore the possibility that a model forced to generate 
-                  a hypothesis based on a premise might be less prone to learning the dataset bias. Another attempt 
-                  to reduce the learned bias was made by flipping premises and hypotheses for the contradiction 
-                  examples during the training. Lastly, I implemented the DRiFT method reported in the literature. 
-                  Most of the enhanced models demonstrated improved performance on the HANS dataset relative to the 
-                  baseline models, suggesting a potential reduction in bias. Nevertheless, while these results are 
-                  indicative, they are not conclusive enough to firmly assert the complete removal of bias.</div>
+                <div class="mb-2">In this project, I made several attempts to remove bias from the models trained 
+                  for the natural language inference task, including two novel approaches. I explored the possibility 
+                  that a model forced to generate a hypothesis based on a premise might be less prone to learning the 
+                  dataset bias. Another attempt to reduce the learned bias was made by flipping premises and hypotheses 
+                  for the contradiction examples during the training. Lastly, I implemented the DRiFT method reported in 
+                  the literature. Most of the enhanced models demonstrated improved performance on the HANS dataset 
+                  relative to the baseline results, suggesting a potential reduction in bias.</div>
                 <div class="mb-2">
                   <a href="/NLP_report.pdf" class="text-info-emphasis text-decoration-none" title="View PDF" data-bs-toggle="tooltip">
                     [PDF of the report <i class="bi bi-box-arrow-up-right fs-5"></i> ]
                   </a>
                 </div>
+              </div>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+              <div class="ms-2 me-auto">
+                <div class="fw-bold mb-2">Development of a neural-network-based agent to play SuperTuxKart ice hockey</div>
+                <div class="mb-2">The project's objective was to create an agent capable of playing SuperTuxKart ice 
+                  hockey by choosing an appropriate action at every turn. Working within a team, we pursued various 
+                  strategies, including the development of a computer vision system from scratch and reinforcement 
+                  learning. The focus of my work was to implement imitation learning and dagger algorithms. The team 
+                  selected my agent design as the basis for further experimentation. This agent placed second in a 
+                  class-wide competition.</div>
+                
               </div>
             </li>
           </ol>            
